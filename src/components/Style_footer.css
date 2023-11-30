@@ -1,0 +1,24 @@
+#foot{
+    
+    background-color: aquamarine;
+}
+#foote{
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.social-media{
+    height: 30px;
+}
+.space{
+    margin-right: 10px;
+    max-width: 100%;
+}
+#links a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+#links a:hover{
+    color: white;
+}

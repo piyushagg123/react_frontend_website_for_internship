@@ -1,0 +1,66 @@
+#naam{
+    margin-bottom: 20px;
+}
+#z{
+    background: url("images_home/back.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+}
+#q{
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: large;
+}
+#w{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+#e{
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: large;
+    padding-bottom: 30px;
+}
+#t{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+#y{
+    height: 40vh;
+    padding-left: 10px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#u{
+    
+    padding-top: 30px;
+}
+#i{
+    text-align: center;
+}
+#o{
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: large;
+    
+}
+#p{
+    font-size: x-large;
+    font-style: italic;
+    padding-left: 15px;
+}
+#pi{
+    text-align: center;
+}
+@media (max-width:425px){
+    #pik{
+        font-size: 10px
+    }
+}

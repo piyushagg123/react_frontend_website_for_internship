@@ -1,0 +1,84 @@
+.nav-link{
+    color: black;
+    float: left;
+    font-size: large;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: rgb(153, 221, 153);
+    
+}
+.head{
+    width: 75%;
+    text-align: center;
+    
+}
+
+p{
+    font-size: 15px;
+}
+#nav-heads{
+    color: blue;
+    position: relative;
+    margin-left: 501px;
+}
+#nav-heads:hover{
+    background-color: white;
+}
+
+
+.container{
+    max-width: 1000px;
+}
+#skills{
+    color:black;
+    text-align: center;
+    padding-top: 100px;
+}
+#skills h2{
+    font-weight: bold;
+}
+#skills p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.aboutImage{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.aboutImage:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+@media (max-width: 320px){
+    .aboutImage{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+#skills h1{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#project{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#extend{
+    margin-bottom: 30px;
+}
+#foot{
+    background-color: aquamarine;
+    text-align: center;
+}
+#center{
+    padding-top: 20px;
+}
+#home{
+    position: absolute;
+    left: 100;
+}

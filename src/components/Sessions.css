@@ -1,0 +1,67 @@
+.ds{
+    font-size: x-large;
+    display: flex;
+    align-items: right;
+    text-align: right;
+    text-decoration: none;
+}
+.cont{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+}
+.content{
+    background-color:#abedd6;
+    width: 260px;
+    height: 300px;
+    display: grid;
+    align-content: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: default;
+}
+.content:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.conti{
+    margin-top: 20px;
+    max-width: 1000px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.item-body{
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.item-head{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+    color: #0ba26d;
+    margin-bottom: 15px;
+}
+.book-now{
+    width: 100px;
+    display: flex;
+    height: 35px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.movement{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.h{
+    text-align: center;
+}
+.h h3{
+    margin-bottom: 30px;
+}
