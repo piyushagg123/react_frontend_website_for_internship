@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 .Log{
     background-color: rgb(122, 82, 114);
 }
@@ -24,7 +32,7 @@
 }
 
 .carousel-inner .item img{
-    height: 500px;
+    height: 200px;
     margin: 0 auto;
 }
 .carousel-caption{
@@ -42,7 +50,8 @@
 }
 
 #bg{
-    background: url("images_home/back.jpg") no-repeat center center;
+    padding-top: 40px;
+    background: linear-gradient(90deg, #90ff90, #e6ffe6);
     background-attachment: fixed;
     background-size: cover;
   
@@ -55,9 +64,26 @@
 #heading{
     margin-bottom: 10px;
 }
-#project{
-    background-color: rgb(14, 158, 69);
-}
+
 #pro{
     font-size: xx-large;
+}
+
+@media (min-width:1501px){
+    .carousel-inner .item img{
+        height: 600px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:1500px){
+    .carousel-inner .item img{
+        height: 400px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:800px){
+    .carousel-inner .item img{
+        height: 200px;
+        margin: 0 auto;
+    }
 }

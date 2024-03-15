@@ -18,7 +18,7 @@ img {
   height: auto;
 }
 .header__middle__logo img{
-  width: 20vh;
+  width: 15vh;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -71,7 +71,7 @@ li {
   line-height: 40px;
   position: relative;
   display: block;
-  color: rgb(176, 173, 173);
+  color: white;
   margin: 27px 17px;
   text-decoration: none;
   cursor: pointer;
@@ -133,7 +133,7 @@ li {
 .sub__menus {
   position: absolute;
   display: none;
-  background: white;
+  background: black;
   border: 1px solid lavender;
   width: 227px;
   left: -17px;
@@ -143,7 +143,7 @@ li {
 }
 
 @media (max-width:767px) { 
-  .header__middle .active {color: #ff3d00!important;}
+  .header__middle .active {color: green!important;}
 }
 
 @media (min-width:992px) { 
@@ -181,7 +181,6 @@ li {
   color: #fff;
   padding: 6px 7px;
   border-radius: 5px;
-  margin: 27px auto 0;
   cursor: pointer;
   position: relative;
   z-index: 10037;
@@ -192,15 +191,15 @@ li {
   position: absolute;
   left: 0;
   z-index: 10007;
-  background-color: #d8f1ff;
-  border-bottom: 3px solid #ff3d00;
+  background-color: black;
+  border-bottom: 3px solid ;
   right: 0;
   padding-bottom: 17px;
   padding-top: 57px;
 }
-.main-nav .menu-item a {margin: 10px 17px;text-align: center;color: #000000;}
+.main-nav .menu-item a {margin: 10px 17px;text-align: center;}
 .main-nav  ul.main-menu {display: none}
-.main-nav .sub__menus__arrows:hover .sub__menus {margin: 0 auto;left: 0;right: 0;}
+.main-nav .sub__menus__arrows:hover .sub__menus {margin: 0 auto;left: 0;right: 0;background-color: black;}
 .sub__menus__Active{display: block!important;margin: 0 auto;left: 0;right: 0;}
 .sub__menus__Active2{display: block!important;}
 .menus__categorysss{display: none;}

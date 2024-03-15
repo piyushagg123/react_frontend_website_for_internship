@@ -43,8 +43,8 @@ p{
     margin-bottom: 30px;
 }
 .aboutImage{
-    height:100px;
-    width: 100px;
+    height:200px;
+    width: 200px;
     border-radius: 50%;
 }
 .aboutImage:hover{
@@ -72,7 +72,7 @@ p{
     margin-bottom: 30px;
 }
 #foot{
-    background-color: aquamarine;
+    background:  linear-gradient(90deg, #90ff90, #e6ffe6);
     text-align: center;
 }
 #center{
